@@ -1,0 +1,6 @@
+# from repo root
+git add .
+git commit -m "Initial commit — frontend + GH Pages workflow"
+git branch -M main
+git remote add origin git@github.com:<your-username>/<repo-name>.git   # or use HTTPS URL
+git push -u origin main
